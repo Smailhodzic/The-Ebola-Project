@@ -1,2 +1,2 @@
 # The-Ebola-Project
-Time to learn for Jason and Armin
+Turning The Ebola Project mobile application into a web application

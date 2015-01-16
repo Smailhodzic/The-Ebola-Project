@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo by smailhodzic</title>
+  
+  <script type='text/javascript' src='/js/lib/dummy.js'></script>
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+  <style type='text/css'>
+    
+  </style>
+  
+</head>
+<body>
+  <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['geochart']}]}"></script>
+<div id="regions_div" style="width: 960px; height: 720px;"></div>
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+
+      google.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+          var data = google.visualization.arrayToDataTable([
+              ['Country', 'Confirmed Cases', 'Confirmed Deaths'],
+              ['Guniea', 2775, 1781],
+              ['Liberia', 8157, 3496],
+              ['Nigeria', 20, 8],
+              ['Sierra Leone', 9780, 2943],
+              ['Congo', 235, 200],
+              ['Gabon', 65, 53],
+              ['Senegal', 1,1],
+              ['Democratic Republic of the Congo', 411, 268],
+              ['Mali',8,6]
+          ]);
+
+          var options = {
+              width: 960,
+              height: 680
+          };
+          options['region'] = '002';
+          options['colors'] = ['yellow', 'red'];
+
+          var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+          chart.draw(data, options, options, options);
+      }
+//]]>  
+
+</script>
+
+
+</body>
+
+
+</html>
+
+

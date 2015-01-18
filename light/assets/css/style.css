@@ -6,7 +6,7 @@
 
     100% Free To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDIT US AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 
@@ -22,25 +22,25 @@ body {
     text-align:center;
 }
 .sub-head {
-        padding-bottom:50px;
+        padding-bottom:0px;
         display:block;
     }
 .pad-top-botm {
     padding-top:50px;
     padding-bottom:50px;
 }
-  
+
 h2 {
     color:#ff0000;
     font-weight:900;
-    
+
 }
 h3{
     color:#159238;
-    
+
 }
  /*=====================================
-  PRELOADER STYLES 
+  PRELOADER STYLES
     ===================================*/
    #pre-div {
     background-color: #fff;
@@ -87,11 +87,11 @@ background-color:#242222;
         color: #fff;
     }
 
-/*top-menu links & margin*/    
+/*top-menu links & margin*/
 .navbar-nav > li > a {
     margin: 5px 0px 5px 0px;
 }
-/*toggle styles*/ 
+/*toggle styles*/
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color:#159238;
 }
@@ -119,13 +119,13 @@ background-size: cover;
 
     }
     #home .head-text span {
-        display: block; 
-        font-size: 25px; 
-        color: #fff; 
+        display: block;
+        font-size: 25px;
+        color: #fff;
         margin-bottom: 25px;
     }
         #home .head-text span >i {
-             margin-right: 10px; 
+             margin-right: 10px;
              color: #159238;
         }
      #home p {
@@ -133,11 +133,11 @@ background-size: cover;
         color:#fff;
         font-size:16px;
         line-height:20px;
-        font-weight:800;       
+        font-weight:800;
        text-align:center;
     }
     #home .overlay {
-              background:url(../img/overlays/06.png);        
+              background:url(../img/overlays/06.png);
         min-height:700px;
     }
     #home h3 {
@@ -155,8 +155,8 @@ border-radius: 5px;
 margin-bottom: 30px;
 }
         .div-trans i {
-            margin-left: 10px; 
-            margin-right: 10px; 
+            margin-left: 10px;
+            margin-right: 10px;
             color: #159238;
         }
         .div-trans span {
@@ -174,7 +174,7 @@ margin-bottom: 30px;
     ===================================*/
 
 #about {
-     background-color: #efefef; 
+     background-color: #efefef;
      padding-top: 80px;
 }
 .big-icon {
@@ -182,7 +182,7 @@ margin-bottom: 30px;
 }
 
 .why-div {
-    text-align: justify; 
+    text-align: justify;
     padding: 10px 50px;
 }
 
@@ -212,7 +212,7 @@ background-image: linear-gradient(to right,rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0
 }
 
 /*=====================================
-  DONARS STYLES 
+  DONARS STYLES
     ===================================*/
 .donars-section {
 background: url(../img/donars.jpg) no-repeat center center;
@@ -222,7 +222,7 @@ background-size: cover;
 color:#fff;
 }
  .donars-section .overlay {
-              background: url(../img/overlays/02.png);     
+              background: url(../img/overlays/02.png);
     }
 .slide-custom {
     min-height:200px;
@@ -236,15 +236,15 @@ color:#fff;
    padding:5px;
 }
 
- 
+
 /*==========================================
    PORTFOLIO STYLES
     =====================================================*/
 
 #port-folio {
-    padding-top: 80px; 
-    padding-bottom: 100px; 
-    background-color: #efefef; 
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #efefef;
 }
 .portfolio-item {
     border:5px solid #159238;
@@ -303,7 +303,7 @@ color:#fff;
 
 #help {
     color:#fff;
-   
+
       background: url(../img/help.jpg) no-repeat center center;
 padding: 0;
 -webkit-background-size: cover;
@@ -311,9 +311,9 @@ background-size: cover;
 }
 
 #help .overlay {
-              background:rgba(32, 32, 32, 0.3); 
-                padding-top: 80px; 
-    padding-bottom: 100px;       
+              background:rgba(32, 32, 32, 0.3);
+                padding-top: 80px;
+    padding-bottom: 100px;
     }
 
 
@@ -346,9 +346,7 @@ margin-top: 20px;
 
 #footser-end {
     text-align:right;
-  background-color:#242222; 
+  background-color:#242222;
    color:#fff;
    padding:10px;
 }
-
- 

@@ -1,58 +1,275 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />    
-    <title>ECOSAVE TEMPLATE</title>
-    <!-- BOOTSTRAP CORE STYLE CSS -->
-    <link href="demo/assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE CSS -->
-    <link href="demo/assets/css/style.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
-     <link href='http://fonts.googleapis.com/css?family=Nova+Flat' rel='stylesheet' type='text/css' />
+    <meta name="description" content="Turning The Ebola Project phone application into a web app" />
+    <meta name="author" content="Armin Smailhodzic and Jason Smith" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>EBOLA BOOTSTRAP TEMPLATE</title>
+    <!--  Bootstrap Style -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!--  Font-Awesome Style -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--  Animation Style -->
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <!--  Pretty Photo Style -->
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+    <!--  Google Font Style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!--  Custom Style -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- Override Style -->
+    <link href="assets/css/styleoverride.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-          <section>
-            <div class="container">
-           <div class="row c-t" >
-            <div class="col-md-12 col-sm-12 col-xs-12 c-t">
-                <h2>CHOOSE TEMPLATE VARIANT </h2>
-                <br /><br />
+    <div id="pre-div">
+        <div id="loader">
+        </div>
+    </div>
+    <!--/. PRELOADER END -->
+    <div class="navbar navbar-default navbar-fixed-top move-me ">
+        <div class="container">
+            <div class="navbar-header" style="padding-top:5px" style="padding-bottom:10px">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">
+                  <p style="color:#ff0000">The Ebola Project</p>
+
+                </a>
             </div>
-               
-               </div>
-             <div class="row c-t" >
-            <div class="col-md-6 col-sm-6 col-xs-12 c-t">
-                <a href="light/index.html" >
-                <h3>Light Color Template </h3>
-                    </a>
-                <br />
-                <a href="light/index.html" >
-                <div class="alert" role="alert" style="background:#fff;color:#000">
-  <h1>LIGHT </h1>
-                     <h1> VERSION</h1>
-                     <h1>TEMPLATE</h1>
-</div>
-                    </a>
-            </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 c-t">
-                    <a href="dark/index.html"  >
-                <h3>DARK Color Template </h3>
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li >
+                        <a href="#home">HOME
+
                         </a>
-                      <br />
-                       <a href="dark/index.html"  >
-                <div class="alert" role="alert" style="background:#000">
-  <h1>DARK </h1>
-                     <h1> VERSION</h1>
-                     <h1>TEMPLATE</h1>
-</div>
-                    </a>
+
+                    </li>
+                    <li >
+                        <a href="#map">MAP
+
+                        </a>
+
+                    </li>
+
+                    <li >
+                        <a href="#predictions">PREDICTIONS
+                        </a>
+
+                    </li>
+
+                    <li >
+                        <a href="#help">HOW TO HELP ?
+                        </a>
+
+                    </li>
+
+                    <li >
+                        <a href="#zmapp">ZMAPP
+                        </a>
+
+                    </li>
+                </ul>
             </div>
-               </div>
+
+        </div>
+    </div>
+    <!--./ NAV BAR END -->
+    <div id="home" >
+        <div class="overlay">
+            <div class="container">
+                <div class="row text-center ">
+                    <div class="col-lg-12 col-md-12 head-text">
+                        <h1 id="divDisp" >WHY WE NEED YOUR HELP</h1>
+                        <p>
+                        <iframe align="center" width="560" height="315" src="//www.youtube.com/embed/JNiH18JNmqA" frameborder="0"></iframe>
+                        <p>
+                          <center>
+                        <span>
+                          <i class="fa fa-quote-left" ></i>There are 22.3 million people living in areas where Ebola transmission has occurred <i class="fa fa-quote-right" ></i>
+                        </span>
+                        <span>
+                          <i class="fa fa-quote-left" ></i>Women make up an estimated 75% of all cases <i class="fa fa-quote-right" ></i>
+                        </span>
+                        <span >
+                          <i class="fa fa-quote-left" ></i>Children are particularly vulnerable to Ebola <i class="fa fa-quote-right" ></i>
+                        </span>
+                        <span >
+                          <i class="fa fa-quote-left" ></i>3,700 children who have lost one or more of their parents to Ebola since the start of the crisis <i class="fa fa-quote-right" ></i>
+                        </span>
+                        <span >
+                          <i class="fa fa-quote-left" ></i>10.3 million children and adolescents under age 18 are directly or indirectly affected <i class="fa fa-quote-right" ></i>
+                        </span>
+                        <span >
+                          <i class="fa fa-quote-left" ></i>Current outbreak is worst in documented history <i class="fa fa-quote-right" ></i>
+                        </span>
+                      </center>
+                    </div>
                 </div>
-      </section>
-       
+            </div>
+        </div>
+    </div>
+    <!--./ HOME SECTION END -->
+    <div id="map" >
+        <div class="container">
+            <div class="row text-center" style="padding-bottom:50px";>
+                    <h2  data-wow-delay="0.3s" class="wow rollIn animated" ><strong>MAP </strong></h2>
+                    <p class="sub-head">This interactive map depicts Ebola virus cases since the year 2000 on the African continent. </p>
+                    <iframe align="center" width="960" height="680" src="/assets/frame/interactivemap.html" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+    <!--./ MAP SECTION END -->
+
+    <div class="donars-section">
+      <div class="overlay">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-12 col-md-12 ">
+              <div id="testimonials" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                  <li data-target="#testimonials" data-slide-to="0" class=""></li>
+                  <li data-target="#testimonials" data-slide-to="1" class=""></li>
+                  <li data-target="#testimonials" data-slide-to="2" class="active"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                  <div class="item">
+                    <div class="container center">
+                      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                        <h4><i class="fa fa-quote-left"></i>The app gives travelers basic information about the disease, such as its definition, the risk of exposure, prevention methods, signs and symptoms, transmission, diagnosis and treatment.<i class="fa fa-quote-right"></i></h4>
+                        <h5 class="pull-right"><strong class="c-black">Travel Pulse</strong></h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="container center">
+                      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                        <h4><i class="fa fa-quote-left"></i>Bosanac razvio aplikaciju za pomoć u borbi protiv ebole<i class="fa fa-quote-right"></i></h4>
+                        <h5 class="pull-right"><strong class="c-black">Al Jazeera</strong></h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item active">
+                    <div class="container center">
+                      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                        <h4><i class="fa fa-quote-left"></i>A Western Kentucky University student has developed a way to track the Ebola virus outbreak.<i class="fa fa-quote-right"></i></h4>
+                        <h5 class="pull-right"><strong class="c-black">Washington Times</strong></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--./ Testimonials Section End -->
+
+    <div id="predictions" class="pad-top-botm" >
+        <div class="container">
+            <div class="row text-center">
+                    <h2 data-wow-delay="0s" class="wow rollIn animated"><strong>PREDICTIONS </strong></h2>
+                    <p class="sub-head">The following graphs represent predictions for the spreading of the virus within the West African countries affected. These predictions were calculated using the SIR Model of Disease spreading, which was adapted to use information mined from Twitter. </p>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.4s">
+
+                        <img src="assets/img/Liberia.png" class="img-responsive " alt="" />According to predictions based on the SIR model of disease spreading, Liberia will have an increasing number of weekly cases for the first 11 months after the outbreak. Following this threshold weekly cases will begin decreasing.
+                      </img>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.5s">
+                    <img src="assets/img/Guinea.png" class="img-responsive " alt="" /> According to predictions based on the SIR model of disease spreading, Guinea will have an increasing number of weekly cases for the first 18 months after the outbreak. Following this threshold weekly cases will begin decreasing.</img>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.6s">
+                    <img src="assets/img/Sierra Leone.png" class="img-responsive " alt="" /> According to predictions based on the SIR model of disease spreading, Sierra Leone will have an increasing number of weekly cases for the first 16 months after the outbreak. Following this threshold weekly cases will begin decreasing.</img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--./ PREDICTIONS/PORTFOLIO SECTION END -->
+
+    <div id="help" >
+        <div class="overlay">
+            <div class="container">
+                <div class="row text-center">
+                        <h2 data-wow-delay="0.3s" class="wow rollIn animated"><strong>HOW YOU CAN HELP ?</strong></h2>
+                      </i>Visit the following website to see how you can help in the fight against Ebola. </p>
+                        <p>
+                        <p>
+                        <a href="http://www.ussltaskforce.org/" target="_blank">Visit US-SL Ebola Health Care Task Force Coalition</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--./ HELP SECTION END -->
+    <div id="zmapp" >
+        <div class="container">
+            <div class="row text-center">
+                    <h2 data-wow-delay="0.3s" class="wow rollIn animated"><strong>ZMAPP </strong></h2>
+                    <p class="sub-head">ZMapp is an experimental drug developed by Mapp Biopharmaceutical.
+                      ZMappTM is composed of three “humanized” monoclonal antibodies manufactured in plants, specifically Nicotiana [tobacco]. It is an optimized cocktail combining the best components of MB-003 (Mapp) and ZMAb (Defyrus/PHAC).
+                      It is manufactured at Kentucky BioProcessing in Owensboro.
+                      Production of the drug takes several weeks and only produces a small amount.
+                      Current side effects of the drug include chest tightness and increased heart rate. More side effects will become known with continuous observations. </p>
+                      <img src="http://media.kentucky.com/smedia/2014/08/10/06/35/EQQW5.AuSt.79.jpg" alt="The process to produce ZMapp">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--./ ZMAPP SECTION END -->
+    <div id="footser-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                 &copy; The Ebola Project | by <a href="http://www.binarytheme.com/" style="color:#fff;" target="_blank" >Smailhodzic A. & Smith J.</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--./ FOOTER SECTION END -->
+    <!--  Jquery Core Script -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+     <!--  WOW Script -->
+    <script src="assets/js/wow.min.js"></script>
+    <!--  Scrolling Script -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  PrettyPhoto Script -->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <!--  Custom Scripts -->
+    <script src="assets/js/custom.js"></script>
+
 </body>
 </html>

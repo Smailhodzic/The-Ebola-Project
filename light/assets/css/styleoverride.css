@@ -1,0 +1,17 @@
+/*=====================================
+   style.css override, changed the .sub-head
+   padding from 50px to 0px to remove the space
+   in the map section.
+    ===================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    line-height:25px;
+}
+.text-center {
+    text-align:center;
+}
+.sub-head {
+    padding-bottom:0px;
+    display:block;
+}
